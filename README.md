@@ -3,7 +3,29 @@
 
 This project is a Flutter application.
 
-AI-powered farming assistant backend built with FastAPI and Google Cloud services.
+## Table of Contents
+
+- [Overview](#overview)
+- [Architecture](#architecture)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Backend Setup](#backend-setup)
+- [Frontend Setup](#frontend-setup)
+- [Agent System](#agent-system)
+- [API Documentation](#api-documentation)
+- [Deployment](#deployment)
+- [Development Guide](#development-guide)
+- [Troubleshooting](#troubleshooting)
+
+  ## Overview
+
+Kisan Kavach leverages cutting-edge AI technology to assist farmers with:
+
+- **Plant Disease Detection**: Upload crop images to identify diseases and get treatment recommendations
+- **Government Schemes**: Find relevant agricultural schemes and subsidies
+- **Market Analysis**: Get real-time crop prices and market trends
+- **Weather Information**: Receive weather updates and farming advice
+- **Multi-language Support**: Available in English and Kannada with voice interaction
 
 ## Features
 
@@ -13,6 +35,38 @@ AI-powered farming assistant backend built with FastAPI and Google Cloud service
 - 💰 **Market Prices**: Real-time commodity price information
 - 🏛️ **Government Schemes**: Agricultural scheme information and guidance
 - 🔄 **Multi-modal**: Support for text, voice, and image interactions
+
+  ## Architecture
+
+### Backend Architecture
+
+The backend is built using Google's Agent Development Kit (ADK) with a multi-agent system:
+
+```
+Root Agent (Intent Detection)
+├── Government Schemes Agent
+├── Market Analyzer Agent  
+├── Plant Health Support Agent
+│   ├── Plant Disease Detection Agent
+│   └── Plant Treatment Agent
+└── Weather Agent
+```
+
+**Key Components:**
+- **FastAPI Server**: RESTful API with speech and image processing
+- **Multi-Agent System**: Specialized agents for different farming domains
+- **Google Cloud Integration**: Vertex AI, Speech-to-Text, Text-to-Speech
+- **RAG System**: Document retrieval for government schemes
+
+### Frontend Architecture
+
+Cross-platform Flutter application with:
+- **Multi-platform Support**: iOS, Android, and Web
+- **Firebase Integration**: Authentication and cloud services
+- **Voice Interface**: Record and playback in local languages
+- **Camera Integration**: Plant disease detection through images
+- **State Management**: Provider pattern for app state
+
 
 ## Tech Stack
 
