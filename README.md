@@ -3,20 +3,6 @@
 
 This project is a Flutter application.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Backend Setup](#backend-setup)
-- [Frontend Setup](#frontend-setup)
-- [Agent System](#agent-system)
-- [API Documentation](#api-documentation)
-- [Deployment](#deployment)
-- [Development Guide](#development-guide)
-- [Troubleshooting](#troubleshooting)
-
   ## Overview
 
 Kisan Kavach leverages cutting-edge AI technology to assist farmers with:
