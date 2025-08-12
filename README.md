@@ -5,7 +5,7 @@ This project is a Flutter application.
 
   ## Overview
 
-Kisan Kavach leverages cutting-edge AI technology to assist farmers with:
+This assistant leverages cutting-edge AI technology to assist farmers with:
 
 - **Plant Disease Detection**: Upload crop images to identify diseases and get treatment recommendations
 - **Government Schemes**: Find relevant agricultural schemes and subsidies
