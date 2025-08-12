@@ -37,7 +37,7 @@ AI-powered farming assistant backend built with FastAPI and Google Cloud service
 
 1. **Clone and Setup**:
    ```bash
-   cd kisan-project/backend
+   cd AI_Farming_Assistant/backend
    cp .env.example .env
    # Edit .env with your GCP credentials
    ```
